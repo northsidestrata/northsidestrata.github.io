@@ -1,9 +1,43 @@
----
-# Site settings
-baseurl: ""
-description: "Northside Strata Pty Ltd"
-email: "info@northsidestrata.com.au"
-title: "Northside Strata"
+inc:
+  # Blog Information
+  title:        "Northside Strata"
+  subtitle:     "Subtitle tag line"
+  cover_image:  blog-cover.jpg
+  logo:         logo.png
+
+  # Company information
+  company:      Incorporated
+  url:          http://sendtoinc.com/
+  facebook:     sendtoinc
+  twitter:      sendtoinc
+  gplus:        '101183822199340201470'
+  about_link:   https://sendtoinc.com/about/
+
+  # Product Information
+  product_link: http://incorporated.sendtoinc.com/
+  tagline:      "Get a modern blog for your company"
+
+  # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname:  false
+
+  # Sharing settings
+  sharing:
+    twitter:    false
+    facebook:   false
+    gplus:      false
+    hn:         false
+
+ # Analytics
+  analytics:
+    google: false # Add tracking code in _includes/_google-analytics.html
+
+  # Google Fonts
+  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+  google_font: 'Droid+Sans:400,700'
+
+
 url: "http://northsidestrata.com.au"
 
 # Build settings
@@ -15,6 +49,7 @@ exclude:
     - "CNAME"
     - "LICENSE.md"
     - "README.md"
+include: ['.htaccess']
 lsi: false
 port: 3333
 safe: true

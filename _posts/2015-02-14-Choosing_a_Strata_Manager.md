@@ -1,3 +1,20 @@
+---
+layout: post
+
+title: Jekyll Incorporated Features
+subtitle: "What's in the box"
+cover_image: blog-cover.jpg
+
+excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
+
+author:
+  name: Karri Saarinen
+  twitter: karrisaarinen
+  gplus: 100687498195339762535 
+  bio: Co-founder, Design
+  image: ks.png
+---
+
 ## Choosing a Strata Manager ##
 
 Whitney Property Group is recognised as a leader in the field of professional strata and community management. We manage schemes mainly who do not exceed 50 lots in size across the North Shore and the Northern Beaches of Sydney. Our business believes that our role is to provide superior service to our customers. The delivery of personalised service is of paramount importance in being effective a Strata Manager  because:   
